@@ -2,3 +2,9 @@
 #10 -> 1 2 4 8
 
 N = int(input('Введите целое число - '))
+for i in range(N):
+    n = 2**i
+    if n > N:
+        break
+    else:
+        print(n)
